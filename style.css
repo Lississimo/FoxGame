@@ -1,0 +1,107 @@
+/* Стили для первой страницы */
+body {
+  font-family: sans-serif;
+  background-color: #f7d9c4;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+label,
+input,
+select {
+  display: block;
+  margin: 10px auto;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #ff8000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+/* Стили для второй страницы */
+body {
+  font-family: sans-serif;
+  background-color: #f7d9c4;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h2 {
+  margin-top: 0;
+}
+
+.info p {
+  font-size: 1.2em;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stats div {
+  text-align: center;
+}
+
+.stats div p:first-child {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.stats div p:last-child {
+  font-size: 0.8em;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  background-color: #ff8000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: red;
+  color: white;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}

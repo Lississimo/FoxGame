@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Игра про лису</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <label for="userName">Имя:</label>
+      <input type="text" id="userName" name="userName" required>
+      
+      <label for="userAge">Возраст:</label>
+      <input type="number" id="userAge" name="userAge" required>
+      
+      <label for="userColor">Цвет лисы:</label>
+      <select id="userColor" name="userColor" required>
+        <option value="рыжий">Рыжий</option>
+        <option value="белый">Белый</option>
+        <option value="черный">Черный</option>
+        <option value="серый">Серый</option>
+      </select>
+      
+      <button type="submit" id="start-button">Начать игру</button>
+    </form>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
